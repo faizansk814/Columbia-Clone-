@@ -31,7 +31,7 @@ addpro.addEventListener('click',async function(){
             image2:image2inp.value,
             price:priceinp.value
         }
-        let res=await fetch("http://localhost:3000/sale",{
+        let res=await fetch("https://json-server-4o7r.onrender.com/sale",{
             method:'POST',
             headers:{
                 'Content-Type':'application/json'
@@ -53,7 +53,7 @@ updatebtn.addEventListener('click',async function(){
         
     
     
-        const a = await fetch(`http://localhost:3000/sale/${idinp}`,{
+        const a = await fetch(`https://json-server-4o7r.onrender.com/sale/${idinp}`,{
           method:"PUT",
           headers:{
             "Content-Type":'application/json'
@@ -70,7 +70,7 @@ updateScoreEmpSalaryButton.addEventListener("click", async function () {
     try {
       let id=updateScoreEmpId.value;
       let upsalary=updateScoreEmpSalary.value;
-      const a=await fetch(`http://localhost:3000/sale/${id}`,{
+      const a=await fetch(`https://json-server-4o7r.onrender.com/sale/${id}`,{
         method:"PATCH",
         headers:{
           "Content-Type":"application/json"

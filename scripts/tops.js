@@ -13,7 +13,7 @@ let curUSr = JSON.parse(localStorage.getItem("current-user"))||[]
 
 
 let fetched=[]
-fetch("http://localhost:3000/Tops")
+fetch("https://json-server-4o7r.onrender.com/Tops")
 .then((res)=>{
     return res.json()
 })
