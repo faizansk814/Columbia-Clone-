@@ -1,6 +1,18 @@
 let goToAccc = document.getElementById("go-to-account");
 let curUsr = JSON.parse(localStorage.getItem("current-user"));
-
+ServerStart()
+function ServerStart(){
+   fetch("https://json-server-4o7r.onrender.com/mens")
+   .then((res)=>{
+      return res.json()
+   })
+   .then((data)=>{
+      console.log(data)
+   })
+   .catch((err)=>{
+      console.log(err)
+   })
+}
 goToAccc.addEventListener("click", ()=>{
    if(curUsr == null){
       window.location.href = "./logIn.html";
