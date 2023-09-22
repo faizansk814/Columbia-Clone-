@@ -72,12 +72,4 @@ We welcome contributions from the community to enhance the Columbia Clone projec
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Contact
-
-If you have any questions, suggestions, or issues related to the Columbia Clone project, please feel free to contact us:
-
-- *IA Manager:* Adarsha Khatua
-- *Team Lead:* N Mohammed Nawaz - (fw23_0802)
-- *Team Members:* (Add contact details for team members if desired)
-
 Thank you for your interest in Columbia Clone! We hope you enjoy using and contributing to the project.
