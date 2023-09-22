@@ -24,7 +24,7 @@ Fija Jahangir Shaikh - (fp08_122).
 
 How to Install:-
 
-Website Link: https://fabricacom.netlify.app/
+Website Link: eloquent-sable-2ef7f9.netlify.app
 
 Texh stack Used:-
 HTML
